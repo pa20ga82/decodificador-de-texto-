@@ -1,0 +1,108 @@
+
+*{
+  background: #E5E5E5;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.logoalura {
+  margin-left: 10px;
+  padding-top: 10px;
+  width: 2%;
+}
+
+main {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.text-area {
+  border: none;
+  display: flex;
+  color: #0A3871;
+  margin-top: 90px;
+  text-transform: lowercase;
+}
+
+.text-area::placeholder { color: #0A3871;
+  .text-area:focus {
+    outline: none; 
+  }
+}
+
+.mensagem {
+  background:white;
+  background-image: url("./imagem/boneco.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  border-radius: 24px;
+  color:#0A3871 ;
+  margin-left: 98px;
+  margin-top: 20 px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mensagem textarea {
+background: transparent;
+border: none;
+outline: none;
+}
+.mensagem:focus {
+  outline: none;
+}
+
+.botoes {
+  display: flex;
+  margin-top: auto;
+  border-radius: 24px;
+  width: 100%;
+  justify-content: space-between
+}  
+
+.btn.encriptar {
+  background-color: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: white;
+  width: 328px;
+  height: 67px;
+  cursor: pointer;
+}
+
+.btn.desencriptar {
+  background-color: white;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  width: 328px;
+  height: 67px;
+  cursor: pointer;
+}
+
+.btn.copiar {
+  background: none;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 336px;
+  gap: 112px;
+
+}
+
+.informacao{
+  background-color: gray;
+  width: 100%;
+  font-size: 12px;
+}
